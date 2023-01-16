@@ -1,4 +1,4 @@
-let images = ['../images/Duomo1.jpg','../images/Duomo2.jpg','../images/NewYork.jpg','../images/NotreDameCathedral.jpg']
+let images = ['./images/Duomo1.jpg','./images/Duomo2.jpg','./images/NewYork.jpg','./images/NotreDameCathedral.jpg']
 let current = 0;
 
 let pageNum = function() {
