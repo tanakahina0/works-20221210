@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    user-select: none;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+/* スライドショー① */
+
+.image_box {
+    position: relative;
+    width: 300px;
+    margin: 30px auto;
+    max-width:90%;
+    border: 10px solid rgb(255, 255, 255);
+    border-bottom-width: 20px;
+    box-shadow: 3px 3px 3px rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
+  }
+
+.slide_1 img {
+    max-width: 100%;
+}
+
+.slide_1 {
+    border-bottom: 2px dotted rgb(110, 104, 99);
+}
+
+.slide_1 img:hover {
+    filter: sepia(30%);
+    transition: 0.5s;
+}
+
+.toolbar {
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+    font-weight: bold;
+}
+
+#prev {
+    margin-top: 25px;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+#prev::after {
+    margin-top: 25px;
+    content:'<';
+    color: rgb(99, 89, 69);
+}
+
+#next {
+    margin-top: 25px;
+    float: left;
+    width: 40px;
+    height: 40px;                                
+}
+
+#next::after {
+    margin-top: 25px;
+    content: '>';
+    color: rgb(99, 89, 69);
+}
+
+#page {
+    float: left;
+    margin-top: 25px;
+    height: 32px;
+    color: rgb(99, 89, 69);
+    user-select: none;
+}
+
+/* スライドショー2 */
+
+#main-image {
+    width: 400px;
+}
+
+.thumb_area ul{
+    padding: 0;
+}
+
+.thumb_area ul li{
+    display: inline-flex;
+    list-style-type: none;
+    background-color: rgb(48, 48, 48);
+}
+
+.thumb_area ul li img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+#slide2 {
+    border-bottom: 2px dotted rgb(110, 104, 99);
+}
+
+/* スライドショー3 */
+
+#slide3_main-image {
+    width: 400px;
+}
+
+.toolbar2 {
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav2 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+#prev2 {
+    margin-top: 15px;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+#prev2::after {
+    margin-top: 15px;
+    content:'<';
+    color: rgb(99, 89, 69);
+}
+
+#next2 {
+    margin-top: 15px;
+    float: left;
+    width: 40px;
+    height: 40px;                                
+}
+
+#next2 .none {
+    display: none;                             
+}
+
+#next2::after {
+    margin-top: 15px;
+    content: '>';
+    color: rgb(99, 89, 69);
+}
+
+#page2 {
+    float: left;
+    margin-top: 15px;
+    height: 32px;
+    color: rgb(99, 89, 69);
+    user-select: none;
+}
+
+.thumb_area2 {
+    margin-top: -10px;
+}
+
+.thumb_area2 ul{
+    padding: 0;
+}
+
+.thumb_area2 ul li{
+    display: inline-flex;
+    list-style-type: none;
+    background-color: rgb(48, 48, 48);
+}
+
+.thumb_area2 ul li img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
